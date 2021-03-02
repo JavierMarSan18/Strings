@@ -126,7 +126,7 @@ public class Cadenas {
 
 				if (tamanio <= (cadena.length() - indiceI)) {
 
-					System.out.println(cadena.substring(indiceI, indiceI + tamanio));
+					System.out.println("Subcadena: " + cadena.substring(indiceI, indiceI + tamanio));
 					condicion = false;
 
 				} else {
